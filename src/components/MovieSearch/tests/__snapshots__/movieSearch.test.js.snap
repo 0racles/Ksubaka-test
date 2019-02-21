@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Movie Search should match snapshot 1`] = `
+<.sc-bdVaJa
+  className="movieSearch"
+>
+  <.sc-bwzfXH
+    className="movieSearch-input"
+    onKeyPress={[Function]}
+    placeholder="enter movie title..."
+    type="text"
+  />
+  <.sc-htpNat
+    className="movieSearch-button"
+    onClick={[Function]}
+    type="button"
+    value="Search"
+  />
+</.sc-bdVaJa>
+`;

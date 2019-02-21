@@ -1,0 +1,39 @@
+{
+  "imagesize": {
+    "small": "64x64",
+    "medium": "320x320",
+    "galleryBig": "1800x1200",
+    "galleryThumb": "150x100"
+  },
+  "theme": {
+    "breakpoints": [48, 64, 80],
+    "verticalBreakpoints": [44, 68, 92],
+    "space": [0, 24, 48, 64, 96],
+    "fontSizes": [12, 16, 18, 24, 36, 72],
+    "colors": {
+      "black": "#222",
+      "white": "#fff",
+      "pink": "#ea516a"
+    },
+    "button": {
+      "padding": "1rem 2rem",
+      "background": "#f0dac8",
+      "transparent": "transparent",
+      "color": "#3d3935",
+      "secondary": {
+        "background": "white",
+        "boxShadow": "inset 0 0 0 1px #d8baa8"
+      },
+      "wide": {
+        "padding": "1rem 4rem"
+      },
+      "small": {
+        "padding": ".75rem 1rem"
+      }
+    },
+    "icons": {
+      "primary": "",
+      "secondary": ""
+    }
+  }
+}

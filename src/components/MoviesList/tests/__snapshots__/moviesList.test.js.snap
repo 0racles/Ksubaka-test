@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Movies List should match snapshot 1`] = `
+<div>
+  <.sc-bdVaJa
+    className="itemsList-ul"
+  >
+    <p
+      id="items-missing"
+    >
+      No items found.
+    </p>
+  </.sc-bdVaJa>
+</div>
+`;
