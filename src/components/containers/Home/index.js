@@ -46,17 +46,10 @@ Home.propTypes = {
 };
 
 const mapStateToProps = (state) => {
-  const movies = [
-    {Title: 'Guardians of the Galaxy vol. 2', Actors: 'Sean Conery', Director: 'Steven Speilberg', Year: '2017'},
-    {Title: 'Rush Hour', Actors: 'Jackie Chan', Director: 'James Elsworth', Year: '2018'},
-    {Title: 'Alita', Actors: 'Dare Longe', Director: 'Erin Burns', Year: '2019'},
-    {Title: 'Rush Hour 2 - Chinese Invasion', Actors: ['Chris Tucker ', 'Yen Biao'], Director: ['James Amoruso ', 'Majinder Himanshi'], Year: '2019'},
-    {Title: 'Alicia keys', Actors: ['Brandy ', 'Whitney houston ', 'Carmella'], Director: 'Jane Spade', Year: '1990'},
-    {Title: 'Guardians of the Galaxy preshow', Actors: 'Randy orton', Director: 'Henry Alfonso', Year: '2007'}
-  ]
+  
   return { 
     titles: (val) => {
-      const _arr = movies.filter(
+      const _arr = state.results.filter(
         item => (item.Title.toLowerCase() === val || item.Title.toLowerCase().substring(0, 3) === val));
       return _arr;
     },
